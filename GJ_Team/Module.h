@@ -7,10 +7,15 @@
 
 struct CornerPosition
 {
-	Vector2 topLeft;
-	Vector2 topRight;
-	Vector2 bottomLeft;
-	Vector2 bottomRight;
+	Vector2  topLeft;
+	Vector2  topRight;
+	Vector2  bottomLeft;
+	Vector2  bottomRight;
+
+	Vector2I itiTopLeft;
+	Vector2I itiTopRight;
+	Vector2I itiBottomLeft;
+	Vector2I itiBottomRight;
 
 };
 
